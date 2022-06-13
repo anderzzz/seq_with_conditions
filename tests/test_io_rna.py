@@ -1,7 +1,7 @@
 '''Bla bla
 
 '''
-from io_rna import NucleotideSequenceDataset
+from src.io_rna import NucleotideSequenceDataset
 from torch.utils.data import DataLoader
 
 TEST_DATA = '../test_data/'
