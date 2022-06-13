@@ -4,7 +4,7 @@
 from Bio.SeqRecord import SeqRecord
 from torch.utils.data import DataLoader
 
-from src.io_rna import NucleotideSequenceDataset
+from src.io_seq import NucleotideSequenceDataset
 
 TEST_DATA = '../test_data/'
 SEQ_ON_RECORD = 'AGGACGAACGCTGGCGGCGTGCTTAACACATGCAAGTCGAACGAGAGGACATGAAAAGCTTGCTTTTTATGAAATCTAGTGGCAAACGGGTGAGTAAC' + \
